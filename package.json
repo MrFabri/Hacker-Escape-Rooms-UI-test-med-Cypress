@@ -1,0 +1,16 @@
+{
+  "name": "ui-test-cypress",
+  "version": "1.0.0",
+  "description": "Test the ESC website using cypress",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
